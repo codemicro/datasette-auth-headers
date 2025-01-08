@@ -1,6 +1,6 @@
 [project]
 name = "datasette-auth-headers"
-version = "0.1"
+version = "0.1.0"
 description = "Authenticate a Datasette instance using headers set by an upstream proxy"
 readme = "README.md"
 authors = [{name = "Abigail Pain"}]

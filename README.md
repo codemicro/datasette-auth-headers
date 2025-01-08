@@ -46,6 +46,8 @@ You must configure this plugin on the global level within Datasette. An example 
 
 `id-header-name` is case-insensitive and is the only configuration option at this time.
 
+**You should not use this plugin with headers that can be set by the end user.** Your reverse proxy must strip/overwrite the headers you configure the plugin with for this to be secure.
+
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
